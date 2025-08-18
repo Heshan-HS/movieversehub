@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIEVERSE HUB - Movie Details</title>
+
+    <!-- Dynamic SEO Meta Tags (to be updated by JavaScript) -->
+    <meta id="meta-description" name="description" content="Details about the movie, including cast, plot, and download links.">
+    <meta id="meta-keywords" name="keywords" content="movie, film, details, download">
+    <link id="canonical-link" rel="canonical" href="" />
+
+    <!-- Dynamic Open Graph / Facebook Tags -->
+    <meta property="og:type" content="video.movie">
+    <meta id="og-url" property="og:url" content="">
+    <meta id="og-title" property="og:title" content="MOVIEVERSE HUB - Movie Details">
+    <meta id="og-description" property="og:description" content="Explore movie details on MOVIEVERSE HUB.">
+    <meta id="og-image" property="og:image" content="">
+
+    <!-- Dynamic Twitter Tags -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta id="twitter-url" property="twitter:url" content="">
+    <meta id="twitter-title" property="twitter:title" content="MOVIEVERSE HUB - Movie Details">
+    <meta id="twitter-description" property="twitter:description" content="Explore movie details on MOVIEVERSE HUB.">
+    <meta id="twitter-image" property="twitter:image" content="">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=1.4">
+</head>
+<body>
+    <div class="mobile-nav" id="mobile-nav">
+        <button class="close-btn" aria-label="Close navigation menu">&times;</button>
+        <a href="index.html" class="logo-link">
+            <img src="ff.png" alt="Logo" class="logo-image">
+            <span class="logo-text">MOVIEVERSE HUB</span>
+        </a>
+        <ul class="nav-menu">
+            <li><a href="index.html"><i class="fas fa-home"></i> <span class="link-text">Home</span></a></li>
+        </ul>
+        <h3 class="menu-title">Genres</h3>
+        <ul class="nav-menu" id="mobile-genre-list">
+            <!-- Mobile genres will be populated by JavaScript -->
+        </ul>
+    </div>
+
+        <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="index.html" class="logo-link">
+                <img src="ff.png" alt="Cinevix Logo" class="logo-image">
+                <span class="logo-text">MOVIEVERSE HUB</span>
+            </a>
+        <ul class="nav-menu">
+            <li><a href="index.html"><i class="fas fa-home"></i> <span class="link-text">Home</span></a></li>
+        </ul>
+        <h3 class="menu-title">Genres</h3>
+        <ul class="nav-menu" id="genre-list">
+            <!-- Genres will be populated by JavaScript -->
+        </ul>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <header>
+            <button class="hamburger-menu" aria-label="Open navigation menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+        </header>
+        <div id="movie-detail-content"></div>
+    </main>
+
+    <script src="script.js?v=1.4"></script>
+    <script src="movies.js"></script>
+    <script src="movie-page.js?v=1.4"></script>
+
+    <!-- Trailer Modal -->
+    <div id="trailer-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="video-container">
+                <iframe id="trailer-iframe" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIEVERSE HUB - Your Ultimate Destination for Movies</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Explore, discover, and watch trailers for thousands of movies. MOVIEVERSE HUB is your one-stop hub for trending, new, and classic films.">
+    <meta name="keywords" content="movies, films, trailers, new releases, trending movies, movie database, cinema, movieverse hub">
+    <link rel="canonical" href="http://movieversehub.gt.tc/index.html" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://movieversehub.gt.tc/">
+    <meta property="og:title" content="MOVIEVERSE HUB - Your Ultimate Destination for Movies">
+    <meta property="og:description" content="Explore, discover, and watch trailers for thousands of movies. Your one-stop hub for all things cinema.">
+    <meta property="og:image" content="http://movieversehub.gt.tc/ff.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="http://movieversehub.gt.tc/">
+    <meta property="twitter:title" content="MOVIEVERSE HUB - Your Ultimate Destination for Movies">
+    <meta property="twitter:description" content="Explore, discover, and watch trailers for thousands of movies. Your one-stop hub for all things cinema.">
+    <meta property="twitter:image" content="http://movieversehub.gt.tc/ff.png">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css?v=1.4">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="mobile-nav" id="mobile-nav">
+        <button class="close-btn" aria-label="Close navigation menu">&times;</button>
+        <a href="index.html" class="logo-link">
+            <img src="ff.png" alt="MOVIEVERSE HUB Logo" class="logo-image">
+            <span class="logo-text">MOVIEVERSE HUB</span>
+        </a>
+        <ul class="nav-menu">
+            <li><a href="index.html"><i class="fas fa-home"></i> <span class="link-text">Home</span></a></li>
+        </ul>
+        <h3 class="menu-title">Genres</h3>
+        <ul class="nav-menu" id="mobile-genre-list">
+            <!-- Mobile genres will be populated by JavaScript -->
+        </ul>
+    </div>
+    <div class="sidebar">
+        <a href="index.html" class="logo-link">
+                <img src="ff.png" alt="MOVIEVERSE HUB Logo" class="logo-image">
+                <span class="logo-text">MOVIEVERSE HUB</span>
+            </a>
+        <ul class="nav-menu">
+            <li><a href="index.html"><i class="fas fa-home"></i> <span class="link-text">Home</span></a></li>
+        </ul>
+        <h3 class="menu-title">Genres</h3>
+        <ul class="nav-menu" id="genre-list">
+            <!-- Genres will be populated by JavaScript -->
+        </ul>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" id="search-input" placeholder="Search for movies...">
+                <div id="suggestions-box"></div>
+                <div id="search-history-box"></div>
+            </div>
+            <button class="hamburger-menu" aria-label="Open navigation menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+        </header>
+
+        <section class="hero-section" id="hero-section">
+            <div class="background-image-container">
+                <img src="" alt="Hero banner for a featured movie">
+            </div>
+            <div class="hero-content">
+                <div class="hero-main-info">
+                    <h1>Movie Title Here</h1>
+                    <div class="hero-buttons">
+                        <a href="#" class="btn btn-primary"><i class="fas fa-play"></i> Watch Trailer</a>
+                        <a href="#" class="btn btn-secondary"><i class="fas fa-info-circle"></i> More Info</a>
+                    </div>
+                </div>
+                <div id="hero-details-container">
+                    <!-- Movie details will be dynamically inserted here by script.js -->
+                </div>
+            </div>
+        </section>
+
+        <section class="movies-section">
+            <h2 class="section-header">Trending Movies</h2>
+            <div class="movie-grid" id="trending-grid"></div>
+        </section>
+
+        <section class="movies-section">
+            <h2 class="section-header">New Releases</h2>
+            <div class="movie-grid" id="new-releases-grid"></div>
+        </section>
+
+        <section class="movies-section">
+            <h2 class="section-header">Featured Movies</h2>
+            <div class="scrolling-wrapper">
+                <div class="movie-grid" id="featured-movies-grid"></div>
+            </div>
+        </section>
+
+        <section class="movies-section">
+            <h2 class="section-header">Recommended For You</h2>
+            <div class="movie-grid" id="recommended-movies-grid"></div>
+        </section>
+
+    </div>
+
+    <!-- Movie Details Modal -->
+    <div id="movie-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Trailer Modal -->
+    <div id="trailer-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="video-container">
+                <iframe id="trailer-iframe" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="movies.js"></script>
+    <script src="script.js?v=1.1"></script>
+</body>
+</html>
