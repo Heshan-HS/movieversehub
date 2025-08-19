@@ -458,6 +458,9 @@ function createMovieCard(movie) {
         </div>
     `;
     card.addEventListener('click', () => {
+        // Open the Monetag link in a new tab
+        window.open('https://otieu.com/4/9740588', '_blank');
+        // Navigate to the movie page in the current tab
         window.location.href = `movie.html?title=${encodeURIComponent(movie.title)}`;
     });
     return card;
