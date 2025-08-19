@@ -25,7 +25,7 @@ const movieList = [
         genre: ['ACTION'],
         rating: '7.4',
         releaseDate: '2025-06-04',
-        cast: ['Ana de Armas', 'Keanu Reeves', 'Ian McShane', 'Anjelica Huston', 'Gabriel Byrne', 'Catalina Sandino Moreno', 'Ava McCarthy', 'Juliet Doherty', 'Norman Reedus', 'Lance Reddick', 'Sharon Duncan-Brewster', 'David Castañeda', 'Victoria Comte', 'Robert Maaser', 'Sooyoung Choi', 'Jung Doo-hong', 'Anne Parillaud', 'Marc Cram', 'Rila Fukushima', 'Abraham Popoola', 'Magdalena Šittová', 'Waris Ahluwalia', 'Daniel Bernhardt', 'Anna Schmidtmajerová', 'Emílie Páclová'],
+        cast: ['David Corenswet, Rachel Brosnahan, Nicholas Hoult, Edi Gathegi, Nathan Fillion, Isabela Merced, María Gabriela de Faría, Skyler Gisondo, Alan Tudyk, Grace Chan, Bradley Cooper, Angela Sarafyan, Michael Rooker, Pom Klementieff, Sara Sampaio, Tatiana Piper, Stephen Blackehart, Giovannie Cruz, Bonnie Discepolo, Terence Rosemore, Natasha Halevi, Adriana Leonard, Paul Kim, Jonah Lees, Christian Lees'],
         poster: 'https://images.moviesanywhere.com/8899d06735903d4eaec7c42033d62447/7fccfb51-ced7-4e64-98e8-73d3fc5700df.jpg',
         banner: 'https://preview.redd.it/new-promo-banner-for-superman-2025-v0-3ncbg0g4tz2f1.jpeg?auto=webp&s=ee0f54897d8384ad7a256f17e6ad978863d05f9a',
         englishDescription: `Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent.
@@ -98,7 +98,7 @@ Michael Jai White, Method Man, La La Anthony, Orlando Jones, Levy Tran, Mike Epp
         genre: ['ACTION'],
         rating: '7.4',
         releaseDate: '2025-06-04',
-        cast: ['Ana de Armas', 'Keanu Reeves', 'Ian McShane', 'Anjelica Huston', 'Gabriel Byrne', 'Catalina Sandino Moreno', 'Ava McCarthy', 'Juliet Doherty', 'Norman Reedus', 'Lance Reddick', 'Sharon Duncan-Brewster', 'David Castañeda', 'Victoria Comte', 'Robert Maaser', 'Sooyoung Choi', 'Jung Doo-hong', 'Anne Parillaud', 'Marc Cram', 'Rila Fukushima', 'Abraham Popoola', 'Magdalena Šittová', 'Waris Ahluwalia', 'Daniel Bernhardt', 'Anna Schmidtmajerová', 'Emílie Páclová'],
+        cast: ['Scarlett Johansson, Jonathan Bailey, Mahershala Ali, Rupert Friend, Manuel Garcia-Rulfo, Luna Blaise, David Iacono, Audrina Miranda, Bechir Sylvain, Philippine Velge, Ed Skrein, Adam Loxley, Niamh Finlay, Julian Edgar, Lucy Thackeray, Billy Smith, Jonny Lavelle'],
         poster: 'https://s3.amazonaws.com/nightjarprod/content/uploads/sites/130/2025/06/13172640/q0fGCmjLu42MPlSO9OYWpI5w86I-scaled.jpg',
         banner: 'https://i0.wp.com/thefutureoftheforce.com/wp-content/uploads/2025/05/A-Treassure-Trove-of-New-Posters-for-Jurassic-World-Rebirth-Emerge-From-The-Park.jpg?fit=1024%2C576&ssl=1',
         englishDescription: `Five years after the events of Jurassic World Dominion, covert operations expert Zora Bennett is contracted to lead a skilled team on a top-secret mission to secure genetic material from the world's three most massive dinosaurs. When Zora's operation intersects with a civilian family whose boating expedition was capsized, they all find themselves stranded on an island where they come face-to-face with a sinister, shocking discovery that's been hidden from the world for decades.
@@ -150,7 +150,7 @@ Quetzalcoatlus
         genre: ['HORROR'],
         rating: '7.4',
         releaseDate: '2025-06-04',
-        cast: ['Ana de Armas', 'Keanu Reeves', 'Ian McShane', 'Anjelica Huston', 'Gabriel Byrne', 'Catalina Sandino Moreno', 'Ava McCarthy', 'Juliet Doherty', 'Norman Reedus', 'Lance Reddick', 'Sharon Duncan-Brewster', 'David Castañeda', 'Victoria Comte', 'Robert Maaser', 'Sooyoung Choi', 'Jung Doo-hong', 'Anne Parillaud', 'Marc Cram', 'Rila Fukushima', 'Abraham Popoola', 'Magdalena Šittová', 'Waris Ahluwalia', 'Daniel Bernhardt', 'Anna Schmidtmajerová', 'Emílie Páclová'],
+        cast: ['Omar Tucci, Mason Cromwell, Rick Amsbury, Greg Johnston, Danny Walton, Babak Baharestan, Red Carlsen, Quinton Neufeldt, Iraj Sanjari, Mark Starratt, Thomas Joseph O Neill, Mike Sniezek, Riley Lewis, Lauren Vastano, Darren Ricketts, Rob VanSpall, Jeff Lasseter, Ismael Gunea-Romero'],
         poster: 'https://m.media-amazon.com/images/M/MV5BMjc3MjM0MjItYzUyZC00ODg1LTljZTgtMGIzNDVjNjk1NTdjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
         banner: 'https://images.plex.tv/photo?size=large-1280&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fb%2Fgracenote%2Fbd647303edb09b59cfa57cc69656bff7.jpg',
         englishDescription: `A group of veteran marines steal a shipment of weapons from the military only to find a Cold War era robot that hunts them down, determined to complete its mission. Nothing can stop this deadly killing machine.
