@@ -104,17 +104,12 @@ function renderMoviePage(movie) {
         banner.style.backgroundImage = `url('${movie.banner}')`;
     }
 
-    // Handle Monetag direct link on download button click
+    // Ensure direct download (no Monetag) on download button click
     const downloadButton = movieDetailContent.querySelector('.download-btn');
     if (downloadButton) {
         downloadButton.addEventListener('click', (e) => {
-            e.preventDefault(); // Prevent default link behavior
-            
-            // Open Monetag link in a new tab
-            window.open('https://otieu.com/4/9740588', '_blank');
-            
-            // Open the actual download link in another new tab
-            window.open(movie.downloadLink, '_blank');
+            // Allow default anchor behavior to open the direct download link
+            // No Monetag redirects here
         });
     }
 }
