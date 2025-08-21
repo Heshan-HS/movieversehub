@@ -1,5 +1,4 @@
 const movieList = [
-   
     {
         title: 'Ballerina',
         year: '2025',
@@ -19,6 +18,53 @@ const movieList = [
             'https://static1.srcdn.com/wordpress/wp-content/uploads/2024/12/ana-de-armas-holding-a-rifle-in-ballerina.jpg'
         ]
     },
+    {
+        title: 'Saiyaara',
+        year: '2025',
+        genre: ['ROMANCE'],
+        rating: '6.5',
+        releaseDate: '2025-02-14',
+        cast: ['Ahaan Panday', 'Aneet Padda'],
+        poster: 'https://m.media-amazon.com/images/M/MV5BMTk2ZmFhYjctYWZiYy00N2IxLWEzMWItZGRiMDY4ZDQwZWFlXkEyXkFqcGc@._V1_.jpg',
+        banner: 'https://lk-aps.bmscdn.com/events/mobile/saiyaara-et00005774-14-07-2025-12-58-46.jpg',
+        englishDescription: `"Saiyaara" is a romantic musical drama that marks the directorial venture of Mohit Suri in collaboration with Yash Raj Films. The film introduces fresh faces Ahaan Panday and Aneet Padda in lead roles, bringing to life a story of love, music, and emotional depth.
+
+The film follows the journey of Krish Kapoor (Ahaan Panday), a rebellious young man with a passion for music, and Vani Batra (Aneet Padda), a reserved young woman who expresses herself through melodies. Their worlds collide when music becomes the language of their love, creating a beautiful symphony of emotions.
+
+Set against the backdrop of societal expectations and personal challenges, "Saiyaara" explores how far two souls can go to protect their love. The film features a soulful soundtrack composed by renowned music directors including Mithoon, Tanishk Bagchi, and Vishal Mishra, with vocals by Arijit Singh, Jubin Nautiyal, and Shreya Ghoshal.
+
+Breaking box office records with a staggering ₹21 crore opening day collection, "Saiyaara" has set a new benchmark for debut-led Hindi films. With Mohit Suri's signature storytelling and a fresh on-screen pairing, the film promises to be a musical journey that will resonate with audiences long after the credits roll.`,
+        description: `මෝහිත් සූරි කියන්නේ බොලිවුඩයේ ආදර කතා වලට, විශේෂයෙන්ම සංගීතය මුල් කරගත් ආදර කතා වලට, අලුත් ජීවයක් දුන්න අධ්‍යක්ෂකවරයෙක්. “Aashiqui 2”, “Ek Villain” වගේ චිත්‍රපට වලින් ප්‍රේක්ෂකයන්ගේ හදවත් දිනාගත් ඔහු, යෂ් රාජ් ෆිල්ම්ස් (Yash Raj Films) එක්ක එකතු වෙලා අලුත්ම ආදර කතාවක් අරගෙන එනවා, ඒ තමයි “සෛයාරා” . මේ චිත්‍රපටය විශේෂ වෙන්නේ ආහාන් පාණ්ඩේ (Ahaan Panday) සහ අනීත් පද්දා (Aneet Padda) කියන අලුත්ම නළු නිළි යුවළක් බොලිවුඩයට හඳුන්වා දීම නිසයි.
+
+කතාව ගැන කෙටියෙන් (ස්පොයිල් නැතුව):
+“සෛයාරා” කියන්නේ එකිනෙකට හාත්පසින්ම වෙනස් ලෝක දෙකක ජීවත් වෙන කලාත්මක ආත්ම දෙකක්, සංගීතය හරහා එකට බැඳෙන කතාවක්. ක්‍රිෂ් කපූර් (ආහාන් පාණ්ඩේ) කියන්නේ ටිකක් කැරලිකාර, සංගීතයට පිස්සුවෙන් වගේ ආදරය කරන තරුණයෙක්. වානි බත්‍රා (අනීත් පද්දා) කියන්නේ ටිකක් සංයමයෙන් ඉන්න, සංගීතය තුළින් තමන්ගේ හැඟීම් ප්‍රකාශ කරන තරුණියක්. මේ දෙන්නා මුණගැහුණම, එයාලගෙ ලෝක දෙක එකතු වෙනවා. සංගීතය එයාලගෙ ආදරයේ භාෂාව බවට පත් වෙනවා.
+
+හැබැයි, මේ ආදර කතාව එච්චර සරල එකක් නෙවෙයි. සමාජයේ තියෙන වෙනස්කම්, සහ එයාලගෙ ජීවිතේ එන අභියෝග මේ බැඳීමට ලොකු බලපෑමක් කරනවා. කතාව දිග හැරෙන්නේ මේ බාධක මැද, එයාලගෙ ආදරය කොයිතරම් දුරට ශක්තිමත්ද කියන එක පෙන්වමින්.
+
+විශේෂත්වය සහ හයිප් එක:
+
+මෝහිත් සූරිගේ අධ්‍යක්ෂණය: මෝහිත් සූරිගේ චිත්‍රපටවල තියෙන විශේෂත්වය තමයි, වේදනාව, ආදරය සහ සංගීතය එකට මිශ්‍ර කරලා ප්‍රේක්ෂකයාගෙ හදවතටම කතා කරන විදිය. “සෛයාරා” චිත්‍රපටයත් ඒ වගේම හැඟීම්බර, සංගීතමය අත්දැකීමක් වෙයි අනිවාරෙන්ම.
+
+“Aashiqui 3” හි ආත්මය: මුලින්ම මේ කතාව “Aashiqui 3” විදියට හදන්න සැලසුම් කරලා තිබුණත්, පසුව “සෛයාරා” නමින් ස්වාධීන චිත්‍රපටයක් විදියට නිර්මාණය වෙලා තියෙනවා. ඒ නිසා, “Aashiqui” චිත්‍රපට මාලාවේ තිබුණු ඒ ආදරණීය, වේදනාබර හැඟීම් මේකෙත් දකින්න ලැබෙනවා.
+
+සංගීතය: මේ චිත්‍රපටයේ ලොකුම හයිප් එකක් තියෙන්නේ සංගීතය ගැන. මිතුන්, තනිෂ්ක් බග්චි, විශාල් මිශ්‍රා, සචේත්-පරම්පරා වගේ ජනප්‍රිය සංගීත අධ්‍යක්ෂකවරු කිහිප දෙනෙක්ම මේකට දායක වෙලා තියෙනවා. අරිජිත් සිං, ජුබින් නෝටියාල්, ශ්‍රෙයා ගෝෂාල් වගේ ප්‍රවීණ ගායක ගායිකාවන්ගේ හඬින් ගැයෙන ගීත ගොන්නක්ම මේකෙ තියෙනවා.
+
+අලුත් නළු නිළි යුවළ: ආහාන් පාණ්ඩේ සහ අනීත් පද්දා කියන්නේ බොලිවුඩයට අලුත් මුහුණු දෙකක්. එයාලගෙ රංගනය සහ දෙන්නා අතර තියෙන කෙමෙස්ට්‍රිය චිත්‍රපටයට කොයි වගේ බලපෑමක් කරයිද කියලා බලන්නත් ඔයාලට දැන් පුළුවන්.
+
+ඒවගේම මේකෙ ආරම්භක දින ආදායම කෝටි 21 පසු කරමින් මෙහෙම වාර්ථාවක් තබා තියෙනවා.
+Saiyaara grossed a record-breaking ₹21 crore on its opening day, the highest ever for a Hindi film starring a debutant in the lead role.
+
+“සෛයාරා” කියන්නේ නිකම්ම නිකන් ආදර කතාවක් නෙවෙයි. ඒක සංගීතයෙන්, වේදනාවෙන් සහ හැඟීම්වලින් පිරුණු ගමනක්. මෝහිත් සූරිගේ අධ්‍යක්ෂණය, හිතට වදින සංගීතය සහ අලුත් නළු නිළි යුවළකගේ රංගනය නිසා මේක 2025 වසරේ අනිවාර්යයෙන්ම බලන්න ඕන චිත්‍රපටයක් බවට පත්වෙලා තියෙනවා. ආදර කතා වලට කැමති, විශේෂයෙන්ම සංගීතය මුල් කරගත් චිත්‍රපට වලට කැමති අයට “සෛයාරා” කියන්නේ අමතක නොවන අත්දැකීමක් වේවි.`,
+        downloadLink: 'https://t.me/movievresehub/129',
+        trailerLink: 'https://www.youtube.com/watch?v=BSJa1UytM8w&pp=ygUJU2FpeWFhcmEg',
+        gallery: [
+            'https://79468c92.delivery.rocketcdn.me/wp-content/uploads/2025/07/Saiyaara-2025-Movie-Review-1.jpeg',
+            'https://www.fridaywall.com/wp-content/uploads/2025/06/Saiyaara.jpeg',
+            'https://feeds.abplive.com/onecms/images/uploaded-images/2025/07/22/94086178cdf070e3c3f225334d491a201753180112057402_original.jpg?uxje'
+        ]
+    },
+   
+    
     {
         title: 'Superman',
         year: '2025',
